@@ -22,3 +22,17 @@
 1. git remote add origin git@github.com:ZhSMM/mygit.git ：关联一个远程库
 2. git push -u（第一次要用-u，以后不需要）origin master：把当前master分支推送到远程库
 3. git clone git@github.com:ZhSMM/mygit.git：从远程库中克隆
+4. git checkout -b dev:创建Dev分支，并切换到Dev分支上
+5. git branch：查看当前所有分支
+6. git checkout master:切换回master分支
+7. git merge Dev：在当前的分支上合并Dev分支
+8. git branch -d Dev：删除Dev分支
+9. git branch name：创建分支
+10. git stash：把当前的工作隐藏起来，等以后恢复现场继续工作
+11. git stash list：查看被隐藏起来的文件列表
+12. git stash apply：恢复被隐藏的文件，但内容不删除
+13. git stash drop：删除文件
+14. git stash pop：恢复文件的同时，也删除文件
+15. git remote：查看远程库的消息
+16. git remote -v：查看远程库的详细信息
+17. git push origin master：把master分支推送到对应的远程分支上
