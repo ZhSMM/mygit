@@ -1,0 +1,1 @@
+<div><image src="/mygit/pictures/泰勒公式.gif"></image></div>
